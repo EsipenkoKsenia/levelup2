@@ -10,8 +10,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        BufferedReader reader = new BufferedReader(new FileReader(
-                "C:/ОБУЧЕНИЕ/LEVELUP/Уровень 2/animals.csv"));
+        BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/animals.csv"));
 
         // считываем построчно
         String line = null;
